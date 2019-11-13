@@ -4,7 +4,7 @@ A Node.js command line Amazon-like storefront with the MySQL for database.
 Performs all CRUD operations. The app will take in orders from customers and deplete stock from the store's inventory.
 
 ## Installation
-Run the retailStoreDB.sql to seed data into you MySQL database.
+Run the retailStoreDB.sql to seed data into your MySQL database.
 
 Update the password in the .js files for your MySQL database.
 ```js
@@ -14,7 +14,7 @@ const connection = mysql.createConnection({
     user: "root",
     password: "YOUR_MySQL_PASSWORD_GOES_HERE", //Add you MySQL DB password here
     database: "bamazon"
-})
+});
 ```
 
 Use the node package manager to install dependencies.
