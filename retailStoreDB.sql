@@ -26,3 +26,11 @@ VALUES("iPhone 11 Pro Max", "Electronics", 1149.99, 100),
 ("Pepsi", "Food", 0.99, 50000);
 
 SELECT * FROM products;
+
+UPDATE products 
+SET stock_quantity = 98
+WHERE item_id = 1;
+
+SELECT * 
+FROM products
+WHERE stock_quantity < 100;
