@@ -6,14 +6,14 @@ Performs all CRUD operations. The app will take in orders from customers and dep
 ## Installation
 Run the retailStoreDB.sql to seed data into your MySQL database.
 
-Update the password in the .js files for your MySQL database.
+Configure your connection setting in the .js files for your MySQL database.
 ```js
 const connection = mysql.createConnection({
-    host: "localhost",
-    port: 3306,
-    user: "root",
-    password: "YOUR_MySQL_PASSWORD_GOES_HERE", //Add you MySQL DB password here
-    database: "bamazon"
+    host: "localhost", //DB location
+    port: 3306, //Port number
+    user: "root", //MySQL Database username
+    password: "YOUR_MySQL_PASSWORD_GOES_HERE", //Add your MySQL DB password here
+    database: "bamazon" //Database name
 });
 ```
 
