@@ -24,3 +24,5 @@ VALUES("iPhone 11 Pro Max", "Electronics", 1149.99, 100),
 ("RU Coding Bootcamp", "Education", 10499.99, 30),
 ("Mac Pro", "Electronics", 5999.99, 150),
 ("Pepsi", "Food", 0.99, 50000);
+
+SELECT * FROM products;
