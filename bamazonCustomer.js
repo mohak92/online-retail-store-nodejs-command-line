@@ -34,8 +34,8 @@ function shopProducts() {
             type: "input",
             message: "How many would you like to purchase ?"
         }]).then(function (response) {
-            var item_id = response.item_id;
-            var quantity = response.quantity;
+            var item_id = parseInt(response.item_id);
+            var quantity = parseInt(response.quantity);
             var total;
             var updateQuantity;
 
