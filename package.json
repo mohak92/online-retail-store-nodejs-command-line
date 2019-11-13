@@ -1,0 +1,24 @@
+{
+  "name": "online-retail-store-nodejs-command-line-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohak92/online-retail-store-nodejs-command-line-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohak92/online-retail-store-nodejs-command-line-app/issues"
+  },
+  "homepage": "https://github.com/mohak92/online-retail-store-nodejs-command-line-app#readme",
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1"
+  }
+}
