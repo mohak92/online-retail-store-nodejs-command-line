@@ -28,9 +28,12 @@ npm install
 
 ## How to Run:
 ![](assets/img/online-store.gif)
+### Run
 ```bash
 node bamazonCustomer.js 
 ```
+To purchase products. 
+Follow the propmt on terminal.
 ### Run
 ```bash
 node bamazonManager.js 
@@ -40,7 +43,6 @@ node bamazonManager.js
 2. Add new products
 3. Update stock of existing products in database
 4. View products low in stock i.e less than 100
-Follow the propmt on terminal.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
