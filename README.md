@@ -31,6 +31,15 @@ npm install
 ```bash
 node bamazonCustomer.js 
 ```
+### Run
+```bash
+node bamazonManager.js 
+```
+#### To
+1. List all products
+2. Add new products
+3. Update stock of existing products in database
+4. View products low in stock i.e less than 100
 Follow the propmt on terminal.
 
 ## Contributing
