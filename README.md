@@ -4,7 +4,7 @@ A Node.js command line Amazon-like storefront with the MySQL for database.
 Performs all CRUD operations. The app will take in orders from customers and deplete stock from the store's inventory.
 
 ## Installation
-Run the schema.sql from MySQL Shell of any MySQL GUI client to seed data into your MySQL database.
+Run the schema.sql from MySQL Shell or any MySQL GUI client to seed data into your MySQL database.
 
 Configure your connection setting in the .js files for your MySQL database.
 ```js
